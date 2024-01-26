@@ -48,7 +48,7 @@ Vagrant.configure("2") do |config|
   end
 
 ## ansible node4 ##
-  config.vm.define "node2" do |cfg|
+  config.vm.define "node4" do |cfg|
     cfg.vm.box = "generic/ubuntu2004"
     cfg.vm.hostname = "node4"
     cfg.vm.network "private_network", ip: "10.10.10.14"
